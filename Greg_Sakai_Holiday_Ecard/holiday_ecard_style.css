@@ -1,0 +1,476 @@
+body {
+	font-family: 'Sansita', sans-serif;
+	height: 97.5vh;
+	overflow: hidden;
+}
+
+#page1 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+		margin-top: -10px;
+		margin-left: -10px;
+}
+
+#page2 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+		margin-top: -10px;
+		margin-left: -10px;
+    overflow: hidden;
+    display: none;
+		background: -webkit-linear-gradient(#774216, #9b5a23);
+		background: -moz-linear-gradient(to  right, #774216, #9b5a23);
+}
+
+#page3 {
+	display: none;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	margin-top: -10px;
+	margin-left: -10px;
+	background: -webkit-linear-gradient(#774216, #9b5a23);
+	background: -moz-linear-gradient(to  right, #774216, #9b5a23);
+}
+
+#page4 {
+	display: none;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	margin-top: -10px;
+	margin-left: -10px;
+	background-color: #cccccc;
+}
+
+#gingerbreadhouse {
+	width: 35%;
+	float: right;
+	margin-right: -8px;
+	z-index: 999;
+}
+
+#path {
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+	margin-left: -45%;
+	margin-top: 35%;
+}
+
+#star {
+	position: absolute;
+	width: 10%;
+	margin-left: 5%;
+	margin-top: 2%;
+	z-index: 1;
+}
+
+#starfactcontainer {
+	width: 25%;
+	margin-left: 17%;
+	margin-top: -32%;
+	z-index: 999;
+	border: none;
+	border-radius: 4px;
+	background-color: #c0d1ed;
+	position: absolute;
+}
+
+#reindeer {
+	width: 10%;
+	margin-left: 20%;
+	margin-top: 20%;
+	z-index: 999;
+}
+
+#reindeerfactcontainer {
+	width: 20%;
+	margin-left: 32%;
+	margin-top: -17%;
+	z-index: 999;
+	border: none;
+	border-radius: 4px;
+	background-color: #c0d1ed;
+	position: absolute;
+}
+
+#pathfactcontainer {
+	width: 25%;
+	margin-left: 35%;
+	margin-top: -5%;
+	z-index: 999;
+	border: none;
+	border-radius: 4px;
+	background-color: #c0d1ed;
+	position: absolute;
+}
+
+#snowhillbg {
+	width: 100vw;
+	z-index: -999;
+	position: absolute;
+	margin-top: 0;
+}
+
+/* INSIDE THE GINGERBREAD HOUSE */
+
+#gbman {
+	width: 20%;
+	position: absolute;
+	margin-left: 30%;
+	margin-top: 11%;
+	z-index: 999;
+}
+
+#gbmanfactcontainer {
+	width: 25%;
+	margin-left: 30%;
+	margin-top: 2vh;
+	z-index: 999;
+	border: none;
+	border-radius: 4px;
+	background-color: #c0d1ed;
+	position: absolute;
+}
+
+#door {
+	position: absolute;
+	width: 24%;
+	margin-top: 5%;
+	margin-left: 5%;
+	z-index: 0;
+	clear: both;
+}
+
+#housewindow {
+	width: 20%;
+	margin-left: 50%;
+	margin-top: 5%;
+	z-index: 0;
+	position: absolute;
+	clear: both;
+}
+
+#housewindowfactcontainer {
+	width: 25%;
+	margin-left: 70vw;
+	margin-top: 5vh;
+	z-index: 999;
+	border: none;
+	border-radius: 4px;
+	background-color: #c0d1ed;
+	position: absolute;
+}
+
+#turkey {
+	width: 20%;
+	z-index: 999;
+	position: absolute;
+	margin-left: 70%;
+	margin-top: 20%;
+}
+	#table {
+		width: 140%;
+		position: absolute;
+		margin-left: 58%;
+		margin-top: -9%;
+		z-index: 999
+		visibility: hidden;
+	}
+
+	#audio {
+		display: none;
+	}
+
+#rightarrow {
+	width: 5%;
+	position: absolute;
+	margin-left: 93vw;
+	margin-top: 40vh;
+}
+
+/* LIVING ROOM */
+
+#rightarrow2 {
+	width: 5%;
+	position: absolute;
+	margin-left: 93vw;
+	margin-top: 40vh;
+}
+#leftarrow1 {
+	width: 5%;
+	position: absolute;
+	margin-left: 2%;
+	margin-top: 40vh;
+}
+
+#tree {
+	position: absolute;
+	width: 40vw;
+	height: 90vh;
+	margin-top: 15vh;
+	margin-left: 50vw;
+}
+
+#present1 {
+	position: absolute;
+	width: 10%;
+	margin-left: 40vw;
+	margin-top: 80vh;
+	z-index: 1;
+}
+#present2 {
+	position: absolute;
+	width: 10%;
+	margin-left: 28vw;
+	margin-top: 90vh;
+	z-index: 1;
+}
+#present3 {
+	position: absolute;
+	width: 10%;
+	margin-left: 16vw;
+	margin-top: 80vh;
+	z-index: 1;
+}
+
+#fireplace {
+	width: 40vw;
+	position: absolute;
+	z-index: 0;
+	margin-left: 10vw;
+	margin-top: 48vh;
+}
+
+#present1factcontainer {
+	width: 20%;
+	margin-left: 40vw;
+	margin-top: 67vh;
+	z-index: 999;
+	border: none;
+	border-radius: 4px;
+	background-color: #c0d1ed;
+	position: absolute;
+}
+#present2factcontainer {
+	width: 10%;
+	margin-left: 27vw;
+	margin-top: 70vh;
+	z-index: 999;
+	border: none;
+	border-radius: 4px;
+	background-color: #c0d1ed;
+	position: absolute;
+}
+#present3factcontainer {
+	width: 20%;
+	margin-left: 3vw;
+	margin-top: 67vh;
+	z-index: 999;
+	border: none;
+	border-radius: 4px;
+	background-color: #c0d1ed;
+	position: absolute;
+}
+
+#stocking1 {
+	width: 8vw;
+	position: absolute;
+	z-index: 1;
+	margin-left: 15vw;
+	margin-top: 50vh;
+}
+	#stocking1:hover {
+		animation: spin 1s linear infinite;
+	}
+	@keyframes spin {
+			0% {
+					transform: rotate(0deg);
+					transform-origin: 40% 0;
+			} 50% {
+					transform: rotate(15deg);
+					transform-origin: 40% 10%;
+			} 100% {
+				transform: rotate(0deg);
+				transform-origin: 40% 0;
+			}
+	}
+
+#stocking2 {
+	width: 8vw;
+	position: absolute;
+	z-index: 1;
+	margin-left: 25vw;
+	margin-top: 50vh;
+}
+	#stocking2:hover {
+		animation: spin2 1s linear infinite;
+	}
+	@keyframes spin2 {
+		0% {
+				transform: rotate(0deg);
+				transform-origin: 40% 0;
+		} 50% {
+				transform: rotate(-15deg);
+				transform-origin: 40% 10%;
+		} 100% {
+			transform: rotate(0deg);
+			transform-origin: 40% 10%;
+		}
+	}
+#stocking3 {
+	width: 8vw;
+	position: absolute;
+	z-index: 1;
+	margin-left: 35vw;
+	margin-top: 50vh;
+}
+	#stocking3:hover {
+		animation: spin 1s linear infinite;
+	}
+
+#treestar {
+	width: 7vw;
+	position: absolute;
+	margin-left: 64vw;
+	margin-top: 8vh;
+}
+.lights {
+	position: absolute;
+	border-radius: 50%;
+	background: yellow;
+	z-index: 999;
+	width: 20px;
+	height: 20px;
+}
+/* Coordinates for each light */
+#light1 { margin-left: 67vw; margin-top: 30vh; }
+#light2 { margin-left: 70vw; margin-top: 40vh; }
+#light3 { margin-left: 65vw; margin-top: 50vh; }
+#light4 { margin-left: 70vw; margin-top: 60vh; }
+#light5 { margin-left: 62vw; margin-top: 70vh; }
+#light6 { margin-left: 75vw; margin-top: 67vh; }
+#light7 { margin-left: 60vw; margin-top: 57vh; }
+#light8 { margin-left: 67vw; margin-top: 72vh; }
+#light9 { margin-left: 63vw; margin-top: 37vh; }
+
+/* OUTSIDE */
+
+#rightarrow3 {
+	width: 5%;
+	position: absolute;
+	margin-left: 93vw;
+	margin-top: 40vh;
+}
+#leftarrow2 {
+	width: 5%;
+	position: absolute;
+	margin-left: 2%;
+	margin-top: 40vh;
+}
+
+#santahat {
+	position: absolute;
+	width: 10%;
+	margin-top: 83vh;
+	margin-left: 70vw;
+	z-index: 999;
+}
+
+#backyard {
+	width: 100vw;
+	height: 100%;
+	position: absolute;
+	z-index: 0;
+	margin-top: -10px;
+	margin-bottom: -20px;
+}
+
+#moon {
+	position: absolute;
+	width: 5vw;
+	margin-left: 80vw;
+	margin-top: 5vh;
+	z-index: 0;
+}
+
+#bells {
+	position: absolute;
+	width: 10vw;
+	margin-left: 70vw;
+	margin-top: 45vh;
+	z-index: 1;
+}
+#bells:hover {
+	animation: jingle 200ms linear infinite;
+	animation-play-state: running;
+	/*animation-iteration-count: 20;*/
+}
+@keyframes jingle {
+	0% {
+			transform: rotate(0deg);
+			transform-origin: 40% 0;
+	} 50% {
+			transform: rotate(-15deg);
+			transform-origin: 40% 10%;
+	} 100% {
+		transform: rotate(0deg);
+		transform-origin: 40% 10%;
+	}
+}
+
+#santahatfactcontainer {
+	width: 13%;
+	margin-left: 82vw;
+	margin-top: 80vh;
+	z-index: 999;
+	border: none;
+	border-radius: 4px;
+	background-color: #c0d1ed;
+	position: absolute;
+}
+
+#moonfactcontainer {
+	width: 20%;
+	margin-left: 55vw;
+	margin-top: 5vh;
+	z-index: 999;
+	border: none;
+	border-radius: 4px;
+	background-color: #c0d1ed;
+	position: absolute;
+}
+
+/* Snowman */
+
+#snowman {
+	width: 15vw;
+	z-index: 999;
+	margin-top: 35vh;
+	margin-left: 20vw;
+	position: absolute;
+}
+
+#carrot {
+	width: 4vw;
+	z-index: 999;
+	margin-top: 44vh;
+	margin-left: 27vw;
+	position: absolute;
+}
+#hat {
+	width: 10vw;
+	z-index: 999;
+	margin-top: 30vh;
+	margin-left: 22.5vw;
+	position: absolute;
+}
+	#hat:hover {
+		transform: rotate(10deg);
+	}
