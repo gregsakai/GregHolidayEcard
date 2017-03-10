@@ -317,6 +317,10 @@ bells.addEventListener('mouseover', function(){
     audio.play();
 });
 
+bells.addEventListener('mouseout', function(){
+  audio.pause();
+});
+
 moon.addEventListener('click', function(){
   var moonfactcontainer = document.getElementById('moonfactcontainer');
     console.log('clicked moon');
